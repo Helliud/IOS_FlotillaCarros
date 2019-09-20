@@ -9,7 +9,11 @@
 import UIKit
 
 class cell_Carro: UITableViewCell {
-
+    @IBOutlet weak var lblPlaca: UILabel!
+    @IBOutlet weak var lblModelo: UILabel!
+    @IBOutlet weak var lblMarca: UILabel!
+    @IBOutlet weak var lblAño: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
